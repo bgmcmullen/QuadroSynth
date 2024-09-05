@@ -1,0 +1,26 @@
+autowatch = 1;
+
+outlets = 1;
+
+activeNotes = [];
+
+
+function clear()
+{
+	var activeNotes = []
+	outlet(8, "")
+		for (var i=0; i<= 8; i++)
+		{
+			outlet(i, "");
+		}
+	}
+	
+
+
+function noteList(a)
+{
+	outlet(0, a);
+
+		
+	
+}
